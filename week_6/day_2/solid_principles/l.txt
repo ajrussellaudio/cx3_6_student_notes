@@ -1,0 +1,6 @@
+If S is a subtype of T, then S has to take *all* of the properties (attributes, functions) of T, such that instances of T can be substituted for instances of S without anything breaking.
+
+Example:
+Rectangles and rounded rectangles.
+Rounded rectangles have all the same properties as rectangles, plus border-radius.
+So any time our code uses a rectangle, we can substitute it for a rounded rectangle without breaking our code.

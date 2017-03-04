@@ -1,0 +1,21 @@
+<form action="/pizzas/<%= @pizza.id %>" method="post">
+  <label for="first_name">First Name:</label>
+  <input type="text" name="first_name" value="<%= @pizza.first_name %>">
+
+  <label for="last_name">Last Name:</label>
+  <input type="text" name="last_name" value="<%= @pizza.last_name %>">
+
+  <label for="topping">Select a pizza:</label>
+  <select name="topping">
+    <option>Select a pizza:</option>
+    <option value="Meat Tornado" <%= 'selected' if @pizza.topping == "Meat Tornado" %> >Meat Tornado</option>
+    <option value="Haggis Hurricane" <%= 'selected' if @pizza.topping == "Haggis Hurricane" %> >Haggis Hurricane</option>
+    <option value="Veggie Vortex" <%= 'selected' if @pizza.topping == "Veggie Vortex" %> >Veggie Vortex</option>
+    <option value="Salami Tsunami" <%= 'selected' if @pizza.topping == "Salami Tsunami" %> >Salami Tsunami</option>
+  </select>
+
+  <label for="quantity">Quantity:</label>
+  <input type="number" name="quantity" value="<%= @pizza.quantity %>">
+
+  <input type="submit" value="Edit Order">
+</form>

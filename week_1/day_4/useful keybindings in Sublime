@@ -1,0 +1,15 @@
+useful keybindings in Sublime
+
+{ "keys": ["super+alt+s"], "command": "save_all" },
+{ "keys": ["super+shift+v"], "command": "paste_and_indent" },
+
+make upper case, cmd-k cmd-u
+make lower case, cmd-k cmd-l
+
+emojis - cmd-ctrl-[space] 😂😂😂😂😂
+
+move line/selection up or down - ctrl-cmd-arrow
+
+multiple windows - cmd-alt-[number]
+
+select matching - cmd-d

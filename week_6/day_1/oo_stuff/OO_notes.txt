@@ -1,0 +1,6 @@
+Object Oriented Programming defines a model, which has a state, and the methods which can change the state of the model.
+
+Ruby = dynamically typed
+     - checked at runtime
+Java = statically typed
+

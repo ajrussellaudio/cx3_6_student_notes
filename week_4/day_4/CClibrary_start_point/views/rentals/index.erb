@@ -1,0 +1,8 @@
+<% @rentals.each do |rental| %>
+  <p>
+    Book: <a href="/books/<%= rental.book.id %>"><%= rental.book.title  %></a>
+    Rented by: <a href="/members/<%= rental.member.id %>"><%= rental.member.name  %></a> 
+  </p>
+  <hr>
+<% end %>
+<a href="/rentals/new">Rent a book!</a>

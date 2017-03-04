@@ -1,0 +1,69 @@
+@keyframes flash {
+  0% {background-color: chartreuse;}
+  50% {background-color: orange;}
+  100% {background-color: chartreuse;}
+}
+
+body:hover {
+  animation: flash 0.5s infinite;
+}
+
+.button {
+  background-color: magenta;
+  color: gold;
+  text-decoration: none;
+  width: 200px;
+  height: 200px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  /*transition-duration: 0.4s;*/
+  transition: all 1s;
+}
+
+.button:hover {
+  animation: flash 0.2s infinite;
+  background-color: chartreuse;
+  color: dodgerblue;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {
+  background-color: aliceblue;
+  margin: 0px;
+}
+
+.square {
+  display: block;
+  background-color: dodgerblue;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.circle {
+  display: inline-block;
+  background-color: blue;
+  width: 25%;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}*/

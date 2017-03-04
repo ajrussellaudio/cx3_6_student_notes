@@ -1,0 +1,15 @@
+{
+  "name": "lodash_bank",
+  "version": "1.0.0",
+  "description": "A bank using sweet lodash methods.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha specs"
+  },
+  "author": "Alan Russell",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.16.1",
+    "mocha": "^3.0.2"
+  }
+}

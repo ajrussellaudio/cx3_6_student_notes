@@ -1,0 +1,20 @@
+class Person {
+  name;
+  age;
+  head;
+  arms;
+  legs;
+  skin;
+}
+
+class Superhero {
+  inherits from Person
+  flight;
+  superStrength;
+}
+
+class Scarecrow {
+  inherits from Person;
+
+  [but doesn't have skin!!]
+}

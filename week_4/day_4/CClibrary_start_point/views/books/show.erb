@@ -1,0 +1,11 @@
+<h2><%= @book.title %></h2>
+
+<h3>By:</h3> 
+<p><%= @book.author %></p>
+
+<h3>Rentals:</h3>
+<ul>
+  <% @book.members.each do |member| %>
+    <li><%= member.name %></li>
+  <% end %>
+</ul>

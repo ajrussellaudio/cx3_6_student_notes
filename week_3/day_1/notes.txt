@@ -1,0 +1,5 @@
+varchar(255) # like a short string, up to 255 chars
+text         # for longer text
+int          # integer (+ve or -ve)
+boolean      # true or false
+numeric (num?) # floats

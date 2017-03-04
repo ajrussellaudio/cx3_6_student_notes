@@ -1,0 +1,16 @@
+<h3>Order History</h3>
+
+<table style="border: 1px solid black">
+<tr style="background-color:black; color:white">
+  <th>Name</th>
+  <th>Order</th>
+  <th>Details</th>
+</tr>
+<% @pizzas.each do |pizza| %>
+  <tr>
+    <td><%= pizza.pretty_name %></td>
+    <td><%= pizza.quantity %> x <%= pizza.topping %></td>
+    <td><a href="/pizzas/<%= pizza.id %>">View</a></td>
+  </tr>
+<% end %>
+</table>
